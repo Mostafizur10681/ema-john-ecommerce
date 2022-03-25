@@ -1,0 +1,15 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.summary-header{
+    font-size: 25px;
+    color: #1C2B35;
+
+}
+p{
+    font-size: 16px;
+}
+h6{
+    font-size: 21px;
+}
