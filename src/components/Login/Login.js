@@ -41,11 +41,11 @@ const Login = () => {
                 <form onSubmit={handleSingIn}>
                     <div className='input-group'>
                         <label htmlFor="email">Email</label>
-                        <input onBlur={handleEmailBlur} type="email" name="email" id="" />
+                        <input onBlur={handleEmailBlur} type="email" name="email" id="" required />
                     </div>
                     <div className='input-group'>
                         <label htmlFor="password">Password</label>
-                        <input onBlur={handlePasswordBlur} type="password" name="password" id="" />
+                        <input onBlur={handlePasswordBlur} type="password" name="password" id="" required />
                     </div>
                     <p style={{ color: 'red' }}> {error?.message}</p>
                     {
